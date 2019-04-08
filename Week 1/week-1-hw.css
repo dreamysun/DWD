@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  padding: 200px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: white;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+ul {
+  text-align: center;
+  color: white;
+}
+
+li{
+  text-align: center;
+  color: white;
+}
