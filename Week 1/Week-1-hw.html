@@ -2,17 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="week-1-hw.css">
-    <script type="text/javascript">
 
-window.onload = function() {
-
-  document.getElementById('foo').addEventListener('click', function (e) {
-    this.style.display: none;
-  });
-
-};
-
-    </script>
 <title>DWD Week 1</title>
 </head>
 <body>
@@ -25,12 +15,20 @@ window.onload = function() {
       <li value="2"> Click it.
   </ul>
 </p></br></br>
-<p>
-  <img id="foo" src="https://media.giphy.com/media/4JXLTe3j9K60yFNPCv/giphy.gif" alt="2 gif" style="width:128px;height:128px;">
-  <img id="foo" src="https://media.giphy.com/media/li0dswKqIZNpm/giphy.gif" alt="1 gif" style="width:128px;height:128px;">
-  <img id="foo" src="https://media.giphy.com/media/CJxXHfRAYvtqU/giphy.gif" alt="3 gif" style="width:128px;height:128px;">
-  <img id="foo" src="https://media.giphy.com/media/YWf50NNii3r4k/giphy.gif" alt="3 gif" style="width:128px;height:128px;">
-</p>
+<div>
+  <img id="foo" onclick="myFunction()" src="https://media.giphy.com/media/4JXLTe3j9K60yFNPCv/giphy.gif" alt="2 gif" style="width:128px;height:128px;" >
+  <img src="https://media.giphy.com/media/li0dswKqIZNpm/giphy.gif" alt="1 gif" style="width:128px;height:128px;">
+  <img  src="https://media.giphy.com/media/CJxXHfRAYvtqU/giphy.gif" alt="3 gif" style="width:128px;height:128px;">
+  <img src="https://media.giphy.com/media/YWf50NNii3r4k/giphy.gif" alt="3 gif" style="width:128px;height:128px;">
+</div>
+<script>
 
+    function myFunction(){
+    document.getElementById('foo').style.display = "none";
+
+    console.log("yay");
+}
+
+    </script>
 </body>
 </html>
