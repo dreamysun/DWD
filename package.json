@@ -1,0 +1,22 @@
+{
+  "name": "dwd",
+  "version": "1.0.0",
+  "description": "## ITP - DWD 2019.   by Chenyu Sun",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreamysun/DWD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dreamysun/DWD/issues"
+  },
+  "homepage": "https://github.com/dreamysun/DWD#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

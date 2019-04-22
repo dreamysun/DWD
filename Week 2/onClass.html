@@ -1,0 +1,22 @@
+var express = require('express');
+var app = express();
+
+
+app.get('/', function(req,res)){
+  res.send("Hello,World!");
+  }
+)
+
+app.get('/dwd',function(req,res)){
+  //res.sender();
+  res.send("Our second route...");
+})
+
+app.listen(9000,function(){
+  console.log("ok");
+
+})
+
+
+//mustache.js
+//mustache expressx
